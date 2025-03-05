@@ -42,6 +42,9 @@ Before running the application, make sure you have the following installed:
 
 ![image](https://github.com/user-attachments/assets/e41d4bb7-4d38-418e-a570-0f5d8e7ef1df)
 
+![image](https://github.com/user-attachments/assets/d3c064d7-c271-4db6-b21f-781782a4f2e0)
+
+
 
 ---
 
