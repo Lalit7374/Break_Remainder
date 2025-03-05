@@ -40,6 +40,9 @@ Before running the application, make sure you have the following installed:
  ## Project Screenshots
 ![image](https://github.com/user-attachments/assets/d430e425-c3ba-4a8c-b7a9-67608c660649)
 
+![image](https://github.com/user-attachments/assets/e41d4bb7-4d38-418e-a570-0f5d8e7ef1df)
+
+
 ---
 
 
