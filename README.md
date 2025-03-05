@@ -37,8 +37,8 @@ Before running the application, make sure you have the following installed:
 - [MongoDB](https://www.mongodb.com/) (locally or use MongoDB Atlas)
 - [Angular CLI](https://angular.io/cli) (for Angular frontend development)
 
-### Snapshot's of project
-###![image](https://github.com/user-attachments/assets/d430e425-c3ba-4a8c-b7a9-67608c660649)
+ ## Project Screenshots
+![image](https://github.com/user-attachments/assets/d430e425-c3ba-4a8c-b7a9-67608c660649)
 
 ---
 
