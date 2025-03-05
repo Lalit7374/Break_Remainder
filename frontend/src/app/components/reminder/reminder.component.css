@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    background: #a7a5d1af;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Container */
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it stretches but does not push the navbar away */
+}
+
+/* Heading */
+h2 {
+    font-size: 2.8rem;
+    color: #003a79;
+    margin-bottom: 10px;
+}
+
+/* Timer Text */
+p.lead {
+    font-size: 1.6rem;
+    color: #333334;
+    margin-bottom: 20px;
+}
+
+/* Break Suggestion Box */
+.break-box {
+    background: #e9f5ff;
+    color: #007bff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.break-box i {
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 19px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #004187;
+    transform: scale(1.05);
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-secondary:hover {
+    background: #343b40;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin-top: 140px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p.lead {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

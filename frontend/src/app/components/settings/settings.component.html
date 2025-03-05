@@ -1,0 +1,13 @@
+<nav>
+    <a routerLink="/" routerLinkActive="active" class="nav-link">Home</a>
+    <a routerLink="/reminder" routerLinkActive="active" class="nav-link">Reminder</a>
+    <a routerLink="/settings" routerLinkActive="active" class="nav-link">Settings</a>
+ </nav> 
+
+<div class="container mt-5">
+    <h2>Settings</h2>
+    <label>Set Break Interval (minutes):</label>
+    <input type="number" [(ngModel)]="breakInterval" class="form-control w-25 d-inline">
+    <button class="btn btn-primary mt-2" (click)="updateBreakInterval()">Save</button>
+</div>
+  

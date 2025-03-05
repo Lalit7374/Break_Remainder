@@ -1,0 +1,45 @@
+<nav>
+    <div class="nav-container">
+        <a routerLink="/" routerLinkActive="active" class="nav-link">Home</a>
+        <a routerLink="/reminder" routerLinkActive="active" class="nav-link">Reminder</a>
+        <a routerLink="/settings" routerLinkActive="active" class="nav-link">Settings</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1 class="title">Boost Your Productivity & Health </h1>
+        <h1 class="title"> With " Break Reminder " </h1>
+        <p class="subtitle">Taking regular breaks reduces stress and improves focus.</p>
+        
+        <!-- Start Tracking Button -->
+        <button (click)="startTracking()" class="btn-primary">Start Tracking</button>
+    </div>
+</header>
+
+<!-- How It Works Section -->
+<section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+        <div class="step">
+    
+            <h3>"Set Work Time"</h3>
+            <p>Define how long you want to work before a break.</p>
+        </div>
+    
+        <div class="step">
+         
+            <h3>"Relax & Refresh"</h3>
+            <p>Take a short break, stretch, or breathe before getting back to work.</p>
+        </div>
+
+        <div class="step">
+    
+            <h3>"Get a Reminder"</h3>
+            <p>We’ll notify you when it’s time to take a break.</p>
+        </div>
+    </div>
+</section>
+

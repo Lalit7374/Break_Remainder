@@ -1,0 +1,17 @@
+<nav>
+    <div class="nav-container">
+        <a routerLink="/" routerLinkActive="active" class="nav-link">Home</a>
+        <a routerLink="/reminder" routerLinkActive="active" class="nav-link">Reminder</a>
+        <a routerLink="/settings" routerLinkActive="active" class="nav-link">Settings</a>
+    </div>
+</nav> 
+
+<div class="container">
+    <h2>Select a Break Activity</h2>
+    <ul class="suggestions-list">
+        <li *ngFor="let suggestion of breakSuggestions">
+            {{ suggestion }}
+        </li>
+    </ul>
+    <button (click)="goBack()" class="btn btn-secondary">Go Back</button>
+</div>

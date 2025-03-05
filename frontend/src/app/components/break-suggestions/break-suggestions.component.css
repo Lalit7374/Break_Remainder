@@ -1,0 +1,135 @@
+/* General Styles */
+bbody {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    background: #a5b3d1af;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Container */
+.container {
+    background: rgb(236, 231, 231);
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it stretches but does not push the navbar away */
+    
+}
+
+/* Heading */
+h2 {
+    font-size: 1.8rem;
+    color: #ff0000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Suggestions List */
+.suggestions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions-list li {
+    background: #c1c7cbc5;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.suggestions-list li:hover {
+    background: #6fa1c8;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 19px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-secondary:hover {
+    background: #343b40;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin-top: 140px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .suggestions-list li {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
